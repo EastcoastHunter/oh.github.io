@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width:device-width">
+    <link rel="icon" type="image/png" href="policelightsav.png">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: gray;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    text-align: center;
+    background: lightgray;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: black;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: navy;
+    color: White;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: gray;
+    padding-left: 20px;
+}
+.fakeimg2{
+    background-color: #aaa;
+    width: 100%;
+    padding: 25px;
+}
+/* Fake image */
+.fakeimg {
+    background-color: navy;
+    width: 40%;
+    padding-left: 35px;
+    padding-top:30px;
+    padding-right: 12px;
+    padding-bottom:30px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: lightgray;
+    padding: 20px;
+    margin-top: 20px;
+    word-wrap: word-break;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+ul#menu li {
+    display: block;
+    width: 50%;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-right:15px;
+    background-color: black;
+    color:white;
+    font-weight: 86px;
+    display:circle;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>&copy;ModenDayRolePlayAndServerSolutions</h1>
+  <p>&copy;2018-2019 ModenDayRolePlayAndServerSolutions <a href="https://sites.google.com/view/moderndayrpand-serversolutions/">Official Website.</a></p>
+</div>
+
+<div class="topnav">
+  <a href="Testing.html#Home">Home/About-Us-&-Our-Services</a>
+  <a href="ourprices.html#pageyourat">Our Prices</a>
+  <a href="dynoav.png#Hunter's-Avatar">Hunter's Avatar</a>
+  <a href="gallery.html#Images">Images</a>
+  <a href="todolist.html#list" target="_blank">List Maker!</a>
+  <a href="https://discord.com/invite/J7qXTMP" target="_blank">Our Discord Server</a>   
+  <form action="404.html" style="float:right;" target="_blank">
+      <input type="search" placeholder="Search The Site..." style="height:43px;">
+      <input type="submit" value="Submit" style="height:45px;">
+  </form>
+</div>
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Our Services:</h2>
+      <h5>Our Services as of Wensday November 21st, 2018</h5>
+      <p>Our Current Services Are As Followed:</p>
+      <p>We Offer <b><i>Cad/Mdts</i></b>, <b><i>Discord Bots With customcommands</i></b>, <b><i>Cutom Built Websites</i></b>. As of right now we don't plan on making any more websites due to lack of income because of current commpotion with other companys</p>
+     <div class="fakeimg" style="height:200px;"><img src="server_logo.jpg" style="max-width:250px;"></div>
+    </div>
+    <div class="card">
+      <h2>Prices For Our Services:</h2>
+      <h5>Posted <q>Sunday November 25th,2018</q></h5>
+      <h3>Our Prices:</h3>
+
+      <p>Discord Bot's: <b>$15.00USD</b><br> Cad/mdt's: range from <b>$5.00USD-$35.00USD</b><br>Websites:</p>
+      <ul id="menu">
+          <li><i>Google platform:</i> <b>$10.00USD</b></li>
+          <li><i>Weebly</i> <b>15.00USD</b></li>
+          <li><i>Any Other platform:</i> <b>$25.00USD</b></li>
+      </ul>
+    </div>
+    <div class="card">
+        <h5>Legal Conditions:</h5>
+        <p>Has given you the fair warning of the following actions that will be taken if <b><i><q>YOU</q></i></b> decide to steal any of <br><b><i>&copy;&reg;&trade;2018-2019 Moddern Day Role Play And Server Solutions</i></b> products you will be taken to the <b><q>State/Federal</q> Justice system</b> for <q><b>violation against</b></q> our<b>&copy; copyright and our &reg;&trade;Registered Trademarked</b> products</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card2">
+      <h2 style="color:black;">Contact us:</h2>
+      <form action="404.html" id="text">
+          <input type="email" placeholder="Email Here" style="height:40px;, word-wrap:break;" required>
+          <input type="name/discordname" placeholder="Put your Real name or Discord username here" style="height:40px;, word-wrap:break;" required>
+          <input type="text" placeholder="Type Here what the current issue is!"  style="height:40px;, word-wrap:break;" required>
+          <span><input type="submit" value="Submit Your Issue" style="height:40px;"></span>
+      </form>
+    </div>
+    <div class="card">
+      <h3>Owners/Co-Owners</h3>
+      <p>Owners:</p>
+      <ul id="menu2">
+          <li><b>1:</b> <i>Hunter L.[S-24]#3037</i></li>
+      </ul>
+      <p>Co-Owners:</p>
+      <ul id="menu2">
+          <li><b>2:</b><i>Trace.K</i></li><br>
+          <li><b>3:</b><i>Nick Robin</i></li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Join Us And Look Ats:</h3>
+      <ul id="menu2">
+          <li><a href="https://discordapp.com/invite/J7qXTMP" target="_blank">Join Our Discord!</a></li>
+          <li><a href="https://sites.google.com/view/moderndayrpand-serversolutions#officialwebsite" target="_blank">Our Official website</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>&copy;2018-2019 moderndayrpand-serversolutions</h2>
+</div>
+
+</body>
+</html>
